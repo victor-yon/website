@@ -28,6 +28,21 @@ npx prettier --write .
 # Run via GitHub Actions or install lychee locally
 ```
 
+## Troubleshooting
+
+### Docker: "Could not find nokogiri" or bundler gem errors
+
+This occurs when Docker's cached bundle doesn't match the Gemfile.lock platforms. **Solution:**
+
+```bash
+# Stop containers and remove volumes (clears cached bundle)
+docker compose down -v
+
+# Rebuild and start fresh
+docker compose up --build
+```
+
+
 ## Architecture Overview
 
 ### Jekyll Site Structure
