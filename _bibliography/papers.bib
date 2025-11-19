@@ -16,6 +16,7 @@
   altmetric = {true},
   dimensions = {true},
   pdf = {amirsoleimani_2020.pdf},
+  preview = {amirsoleimani_2020.png},
   abstract = {The low communication bandwidth between memory and processing units in conventional von Neumann machines does not support the requirements of emerging applications that rely extensively on large sets of data. More recent computing paradigms, such as high parallelization and near-memory computing, help alleviate the data communication bottleneck to some extent, but paradigm-shifting concepts are required. In-memory computing has emerged as a prime candidate to eliminate this bottleneck by colocating memory and processing. In this context, resistive switching (RS) memory devices is a key promising choice, due to their unique intrinsic device-level properties, enabling both storing and computing with a small, massively-parallel footprint at low power. Theoretically, this directly translates to a major boost in energy efficiency and computational throughput, but various practical challenges remain. A qualitative and quantitative analysis of several key existing challenges in implementing high-capacity, high-volume RS memories for accelerating the most computationally demanding computation in machine learning (ML) inference, that of vector-matrix multiplication (VMM), is presented. The monolithic integration of RS memories with complementary metal–oxide–semiconductor (CMOS) integrated circuits is presented as the core underlying technology. The key existing design choices in terms of device-level physical implementation, circuit-level design, and system-level considerations is reviewed and an outlook for future directions is provided.}
 }
 
@@ -36,6 +37,7 @@
   altmetric = {true},
   dimensions = {true},
   pdf = {czischek_2021.pdf},
+  preview = {czischek_2021.png},
   abstract = {A key challenge in scaling quantum computers is the calibration and control of multiple qubits. In solid-state quantum dots (QDs), the gate voltages required to stabilize quantized charges are unique for each individual qubit, resulting in a high-dimensional control parameter space that must be tuned automatically. Machine learning techniques are capable of processing high-dimensional data—provided that an appropriate training set is available—and have been successfully used for autotuning in the past. In this paper, we develop extremely small feed-forward neural networks that can be used to detect charge-state transitions in QD stability diagrams. We demonstrate that these neural networks can be trained on synthetic data produced by computer simulations, and robustly transferred to the task of tuning an experimental device into a desired charge state. The neural networks required for this task are sufficiently small as to enable an implementation in existing memristor crossbar arrays in the near future. This opens up the possibility of miniaturizing powerful control elements on low-power hardware, a significant step towards on-chip autotuning in future QD computers.}
 }
 
@@ -54,6 +56,7 @@
   altmetric = {true},
   dimensions = {true},
   pdf = {yon_2022.pdf},
+  preview = {yon_2022.png},
   abstract = {Novel computing architectures based on resistive switching memories (also known as memristors or RRAMs) have been shown to be promising approaches for tackling the energy inefficiency of deep learning and spiking neural networks. However, resistive switch technology is immature and suffers from numerous imperfections, which are often considered limitations on implementations of artificial neural networks. Nevertheless, a reasonable amount of variability can be harnessed to implement efficient probabilistic or approximate computing. This approach turns out to improve robustness, decrease overfitting and reduce energy consumption for specific applications, such as Bayesian and spiking neural networks. Thus, certain non-idealities could become opportunities if we adapt machine learning methods to the intrinsic characteristics of resistive switching memories. In this short review, we introduce some key considerations for circuit design and the most common non-idealities. We illustrate the possible benefits of stochasticity and compression with examples of well-established software methods. We then present an overview of recent neural network implementations that exploit the imperfections of resistive switching memory, and discuss the potential and limitations of these approaches.}
 }
 
@@ -74,6 +77,8 @@
   altmetric = {true},
   dimensions = {true},
   pdf = {yon_2025a.pdf},
+  supp = {yon_2025a_supp.pdf},
+  preview = {yon_2025a.png},
   abstract = {Neural decoders for quantum error correction rely on neural networks to classify syndromes extracted from error correction codes and find appropriate recovery operators to protect logical information against errors. Its ability to adapt to hardware noise and long-term drifts make neural decoders promising candidates for inclusion in a fault-tolerant quantum architecture. However, given their limited scalability, it is prudent that small-scale (local) neural decoders are treated as first stages of multi-stage decoding schemes for fault-tolerant quantum computers with millions of qubits. In this case, minimizing the decoding time to match the stabilization measurements frequency and a tight co-integration with the QPUs is highly desired. Cryogenic realizations of neural decoders can not only improve the performance of higher stage decoders, but they can minimize communication delays, and alleviate wiring bottlenecks. In this work, we design and analyze a neural decoder based on an in-memory computation (IMC) architecture, where crossbar arrays of resistive memory devices are employed to both store the synaptic weights of the neural decoder and perform analog matrix–vector multiplications. In simulations supported by experimental measurements, we investigate the impact of TiOx-based memristive devices’ non-idealities on decoding fidelity. We develop hardware-aware re-training methods to mitigate the fidelity loss, restoring the ideal decoder’s pseudo-threshold for the distance-3 surface code. This work provides a pathway to scalable, fast, and low-power cryogenic IMC hardware for integrated fault-tolerant quantum error correction.}
 }
 
@@ -97,6 +102,8 @@
   altmetric = {true},
   dimensions = {true},
   pdf = {yon_2024.pdf},
+  supp = {yon_2024_supp.pdf},
+  preview = {yon_2024.png},
   abstract = {This study presents a machine learning-based procedure to automate the charge tuning of semiconductor spin qubits with minimal human intervention, addressing one of the significant challenges in scaling up quantum dot technologies. This method exploits artificial neural networks to identify noisy transition lines in stability diagrams, guiding a robust exploration strategy leveraging neural network uncertainty estimations. Tested across three distinct offline experimental datasets representing different single-quantum-dot technologies, this approach achieves a tuning success rate of over 99% in optimal cases, where more than 10% of the success is directly attributable to uncertainty exploitation. The challenging constraints of small training sets containing high diagram-to-diagram variability allowed us to evaluate the capabilities and limits of the proposed procedure.}
 }
 
@@ -120,6 +127,8 @@
   altmetric = {true},
   dimensions = {true},
   pdf = {yon_2025b.pdf},
+  supp = {yon_2025b_supp.pdf},
+  preview = {yon_2025b.png},
   abstract = {Spin-based semiconductor qubits hold promise for scalable quantum computing, yet they require reliable autonomous calibration procedures. This study presents an experimental demonstration of online single-dot charge autotuning using a convolutional neural network integrated into a closed-loop calibration system. The autotuning algorithm explores the gates’ voltage space to localize charge transition lines, thereby isolating the one-electron regime without human intervention. This exploration leverages the model’s uncertainty estimation to find the appropriate gate configuration with minimal measurements while reducing the risk of failures. In 20 experimental runs, our method achieved a success rate of 95% in locating the target electron regime, highlighting the robustness of this approach against noise and distribution shifts from the offline training set. Each tuning run lasted an average of 2 h and 9 min, primarily due to the limited speed of the current measurement. This work validates the feasibility of machine-learning-driven real-time charge autotuning for quantum dot devices, advancing the development toward the control of large qubit arrays.}
 }
 
@@ -127,6 +136,7 @@
   title = {Towards a Cryogenic CMOS-Memristor Neural Decoder for Quantum Error Correction},
   url = {http://doi.org/10.1109/QCE60285.2024.00149},
   doi = {10.1109/qce60285.2024.00149},
+  arxiv = {2501.14525},
   booktitle = {2024 IEEE International Conference on Quantum Computing and Engineering (QCE)},
   publisher = {IEEE},
   author = {Mouny,  Pierre-Antoine and Benhouria,  Maher and Yon,  Victor and Dufour,  Patrick and Huang,  Linxiang and Beilliard,  Yann and Rochette,  Sophie and Drouin,  Dominique and Ronagh,  Pooya},
@@ -136,11 +146,15 @@
   bibtex_show= {true},
   altmetric = {true},
   dimensions = {true},
+  pdf = {mouny_2024.pdf},
+  preview = {mouny_2024.jpg},
+  abstract = {This paper presents a novel approach utilizing a scalable neural decoder application-specific integrated circuit (ASIC) based on metal oxide memristors in a 180nm CMOS technology. The ASIC architecture employs in-memory computing with memristor crossbars for efficient vector-matrix multiplications (VMM). The ASIC decoder architecture includes an input layer implemented with a VMM and an analog sigmoid activation function, a recurrent layer with analog memory, and an output layer with a VMM and a threshold activation function. Cryogenic characterization of the ASIC is conducted, demonstrating its performance at both room temperature and cryogenic temperatures down to 1.2K. Results indicate stable activation function shapes and pulse responses at cryogenic temperatures. Moreover, power consumption measurements reveal consistent behavior at room and cryogenic temperatures. Overall, this study lays the foundation for developing efficient and scalable neural decoders for quantum error correction in cryogenic environments.}
 }
 
 @misc{drolet_2023,
   doi = {10.48550/ARXIV.2305.18495},
   url = {https://arxiv.org/abs/2305.18495},
+  arxiv = {2305.18495},
   author = {Drolet,  Philippe and Dawant,  Raphaël and Yon,  Victor and Mouny,  Pierre-Antoine and Valdenaire,  Matthieu and Zapata,  Javier Arias and Gliech,  Pierre and Wood,  Sean U. N. and Ecoffey,  Serge and Alibart,  Fabien and Beilliard,  Yann and Drouin,  Dominique},
   keywords = {Hardware Architecture (cs.AR),  Machine Learning (cs.LG),  FOS: Computer and information sciences,  FOS: Computer and information sciences},
   title = {Hardware-aware Training Techniques for Improving Robustness of Ex-Situ Neural Network Transfer onto Passive TiO2 ReRAM Crossbars},
@@ -151,11 +165,12 @@
   altmetric = {true},
   dimensions = {true},
   pdf = {drolet_2023.pdf},
+  preview = {drolet_2023.png},
   abstract = {Passive resistive random access memory (ReRAM) crossbar arrays, a promising emerging technology used for analog matrix-vector multiplications, are far superior to their active (1T1R) counterparts in terms of the integration density. However, current transfers of neural network weights into the conductance state of the memory devices in the crossbar architecture are accompanied by significant losses in precision due to hardware variabilities such as sneak path currents, biasing scheme effects and conductance tuning imprecision. In this work, training approaches that adapt techniques such as dropout, the reparametrization trick and regularization to TiO2 crossbar variabilities are proposed in order to generate models that are better adapted to their hardware transfers. The viability of this approach is demonstrated by comparing the outputs and precision of the proposed hardware-aware network with those of a regular fully connected network over a few thousand weight transfers using the half moons dataset in a simulation based on experimental data. For the neural network trained using the proposed hardware-aware method, 79.5% of the test set's data points can be classified with an accuracy of 95% or higher, while only 18.5% of the test set's data points can be classified with this accuracy by the regularly trained neural network.}
 }
 
 @misc{roux_2025,
-  doi = {10.48550/ARXIV.2509.19537},
+  arxiv = {2509.19537},
   url = {https://arxiv.org/abs/2509.19537},
   author = {Roux,  Marc-Antoine and Rivard,  Joffrey and Yon,  Victor and Morel,  Alexis and Leclerc,  Dominic and Rohrbacher,  Claude and Ndiaye,  El Bachir and Tafuri,  Felice Francesco and Bono,  Brendan and Kubicek,  Stefan and Loo,  Roger and Shimura,  Yosuke and Jussot,  Julien and Godfrin,  Clément and Wan,  Danny and De Greve,  Kristiaan and Tétrault,  Marc-André and Drouin,  Dominique and Lupien,  Christian and Pioro-Ladrière,  Michel and Dupont-Ferrier,  Eva},
   keywords = {Mesoscale and Nanoscale Physics (cond-mat.mes-hall),  Quantum Physics (quant-ph),  FOS: Physical sciences,  FOS: Physical sciences},
@@ -167,6 +182,7 @@
   altmetric = {true},
   dimensions = {true},
   pdf = {roux_2025.pdf},
+  preview = {roux_2025.png},
   abstract = {Spin qubits need to operate within a very precise voltage space around charge state transitions to achieve high-fidelity gates. However, the stability diagrams that allow the identification of the desired charge states are long to acquire. Moreover, the voltage space to search for the desired charge state increases quickly with the number of qubits. Therefore, faster stability diagram acquisitions are needed to scale up a spin qubit quantum processor. Currently, most methods focus on more efficient data sampling. Our approach shows a significant speedup by combining measurement speedup and a reduction in the number of measurements needed to tune a quantum dot device. Using an autotuning algorithm based on a neural network and faster measurements by harnessing the FPGA embedded in Keysight's Quantum Engineering Toolkit (QET), the measurement time of stability diagrams has been reduced by a factor of 9.8. This led to an acceleration factor of 2.2 for the total initialization time of a SiGe quantum dot into the single-electron regime, which is limited by the Python code execution. }
 }
 
@@ -183,5 +199,6 @@
   altmetric = {true},
   dimensions = {true},
   pdf = {yon_2025_phd.pdf},
+  preview = {yon_2025_phd.jpg},
   abstract = {This thesis explores new methods to overcome the challenges of scaling quantum computers, focusing specifically on the automatic calibration of spin qubits and quantum error corrections. The proposed solutions rely on artificial neural networks integrated on emerging electronic components known as memristors. These components leverage in-memory computing for machine learning applications, surpassing traditional processors by a factor of 100 in terms of energy efficiency. In the first phase, an automatic quantum dot calibration method is developed and experimentally validated. This approach relies on artificial neural networks to identify patterns in noisy current measurements, confining a single electron within a nanometer-scale device without human intervention. Special attention is given to quantifying the uncertainty of these networks, leading to a significant reduction in calibration errors. The results show a success rate of over 99% on an offline dataset and 95% for a real-time experiment, demonstrating the robustness of the proposed method. In the second phase, a memristor-based architecture is proposed to efficiently process syndromes generated by quantum error correction codes. This cryogenic decoder architecture meets the strict time and energy requirements necessary for integration near the qubits, though with some performance loss due to hardware imperfections. To address this limitation, a hardware-aware re-training method that accounts for these imperfections is developed, restoring the original fidelity of the decoder. This research offers concrete solutions to current issues in quantum computing while highlighting the potential of memristors for the design of low-energy artificial intelligence applications.}
 }
