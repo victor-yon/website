@@ -842,6 +842,47 @@ footer.sticky-bottom {
             text-decoration: underline;
           }
         }
+
+        // Ensure consistent alignment for all badges
+        .altmetric-embed,
+        .__dimensions_badge_embed__ {
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        a {
+          display: inline-block;
+          vertical-align: middle;
+          line-height: 1;
+        }
+
+        img {
+          filter: none;
+          vertical-align: middle;
+          display: inline-block;
+        }
+
+        // Make badges adapt to dark mode
+        html[data-theme='dark'] & {
+          img {
+            filter: invert(1) hue-rotate(180deg);
+          }
+
+          // Altmetric badges - target the parent span
+          .altmetric-embed {
+            filter: invert(1) hue-rotate(180deg) !important;
+
+            // Prevent double-filtering of nested elements
+            * {
+              filter: none !important;
+            }
+          }
+
+          // Dimensions badges
+          .__dimensions_badge_embed__ {
+            filter: invert(1) hue-rotate(180deg) !important;
+          }
+        }
       }
 
       .hidden {
