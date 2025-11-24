@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - victor-yon
+  - VictorY-Irreversible
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - 3it-inpaqt/dot-calibration-v2
+  - victor-yon/pytorch-lightning-boilerplate
+  - victor-yon/fluorescent-area-analysis
+  - DeepSec-prover/deepsec_ui

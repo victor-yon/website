@@ -26,25 +26,16 @@
       "url": "https://www.irreversible.tech/",
       "startDate": "2024-03-01",
       "endDate": "",
-      "summary": "Developing AI techniques for reliable and energy-efficient machine learning systems.",
+      "summary": "I've been working at Irreversible to develop the next generation of analog AI chips, designed to bring meaningful intelligence to everything from sensors to autonomous systems while consuming up to 1000× less power than traditional digital processors. My work contributes to building the technological groundwork for a new era of ultra-efficient processing computation.",
       "highlights": []
     },
     {
       "name": "1Qbit",
       "position": "AI Research Scientist",
       "url": "https://1qbit.com/",
-      "startDate": "2023-02-01",
+      "startDate": "2022-09-01",
       "endDate": "2024-03-01",
       "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "1Qbit",
-      "position": "Researcher",
-      "url": "https://1qbit.com/",
-      "startDate": "2022-09-01",
-      "endDate": "2022-12-01",
-      "summary": "PhD internship under MITACS contract with Sherbrooke University.",
       "highlights": []
     },
     {
@@ -101,7 +92,7 @@
       "url": "http://hdl.handle.net/11143/22384",
       "area": "Scaling-up quantum computers using memristor-based neural networks",
       "studyType": "PhD",
-      "startDate": "2020-01-01",
+      "startDate": "2020-02-01",
       "endDate": "2024-12-10",
       "score": "",
       "courses": []
@@ -154,14 +145,7 @@
 
   "awards": [],
 
-  "certificates": [
-    {
-      "name": "Canadian English Language Proficiency Index Program",
-      "issuer": "CELPIP",
-      "date": "2025-02-04",
-      "url": "https://www.celpip.ca/"
-    }
-  ],
+  "certificates": [],
 
   "publications": [],
 
@@ -194,7 +178,7 @@
     },
     {
       "language": "English",
-      "fluency": "Professional Working",
+      "fluency": "Professional Working (CELPIP 10/12)",
       "icon": ""
     }
   ],
