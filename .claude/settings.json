@@ -1,13 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(docker compose pull)",
-      "Bash(docker --version)",
-      "Bash(docker compose version)",
-      "Bash(docker-compose --version)",
-      "Bash(docker compose up)",
-      "Bash(docker compose down -v)",
-      "Bash(docker compose up --build)"
+      "Bash(git cherry-pick *)",
+      "Bash(git add *)"
     ]
   }
 }
