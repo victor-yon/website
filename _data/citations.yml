@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-06'
+  last_updated: '2026-03-11'
 papers:
   Avc3vAkAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -14,9 +14,9 @@ papers:
     title: Hardware-aware training techniques for improving robustness of ex-situ neural network transfer onto passive TiO2 ReRAM Crossbars
     year: '2023'
   Avc3vAkAAAAJ:LkGwnXOMwfcC:
-    citations: 1
+    citations: 2
     title: Rapid Autotuning of a SiGe Quantum Dot into the Single-Electron Regime with Machine Learning and RF-Reflectometry FPGA-Based Measurements
-    year: '2025'
+    year: '2026'
   Avc3vAkAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
     title: Robust quantum dot charge autotuning with Bayesian Neural Networks
@@ -50,11 +50,11 @@ papers:
     title: 'coreylammie/MemTorch: 1.1. 6 Release'
     year: Unknown Year
   Avc3vAkAAAAJ:u-x6o8ySG0sC:
-    citations: 37
+    citations: 38
     title: Miniaturizing neural networks for charge state autotuning in quantum dots
     year: '2022'
   Avc3vAkAAAAJ:u5HHmVD_uO8C:
-    citations: 269
+    citations: 270
     title: "In\u2010memory vector\u2010matrix multiplication in monolithic complementary metal\u2013oxide\u2013semiconductor\u2010memristor integrated circuits: design choices, challenges, and perspectives"
     year: '2020'
   Avc3vAkAAAAJ:ufrVoPGSRksC:
