@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-04-27'
 papers:
   Avc3vAkAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -54,7 +54,7 @@ papers:
     title: 'coreylammie/MemTorch: 1.1. 6 Release'
     year: Unknown Year
   Avc3vAkAAAAJ:u-x6o8ySG0sC:
-    citations: 42
+    citations: 43
     title: Miniaturizing neural networks for charge state autotuning in quantum dots
     year: '2022'
   Avc3vAkAAAAJ:u5HHmVD_uO8C:
