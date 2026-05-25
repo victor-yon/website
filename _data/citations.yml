@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-25'
 papers:
   Avc3vAkAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: Quantum dot charge autotuning with Bayesian Neural Networks for spin qubit applications
     year: '2022'
   Avc3vAkAAAAJ:9yKSN-GCB0IC:
-    citations: 25
+    citations: 26
     title: Exploiting non-idealities of resistive switching memories for efficient machine learning
     year: '2022'
   Avc3vAkAAAAJ:IjCSPb-OGe4C:
@@ -58,7 +58,7 @@ papers:
     title: Miniaturizing neural networks for charge state autotuning in quantum dots
     year: '2022'
   Avc3vAkAAAAJ:u5HHmVD_uO8C:
-    citations: 280
+    citations: 281
     title: "In\u2010memory vector\u2010matrix multiplication in monolithic complementary metal\u2013oxide\u2013semiconductor\u2010memristor integrated circuits: design choices, challenges, and perspectives"
     year: '2020'
   Avc3vAkAAAAJ:ufrVoPGSRksC:
