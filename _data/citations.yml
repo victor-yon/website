@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-08-07'
 papers:
   Avc3vAkAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -26,15 +26,15 @@ papers:
     title: Robust quantum dot charge autotuning with Bayesian Neural Networks
     year: '2022'
   Avc3vAkAAAAJ:W7OEmFMy1HYC:
-    citations: 11
+    citations: 12
     title: Experimental online quantum dots charge autotuning using neural networks
     year: '2024'
   Avc3vAkAAAAJ:WF5omc3nYNoC:
-    citations: 4
+    citations: 5
     title: A memristive neural decoder for cryogenic fault-tolerant quantum error correction
     year: '2025'
   Avc3vAkAAAAJ:Y0pCki6q_DkC:
-    citations: 9
+    citations: 10
     title: Robust quantum dots charge autotuning using neural network uncertainty
     year: '2024'
   Avc3vAkAAAAJ:YsMSGLbcyi4C:
@@ -58,7 +58,7 @@ papers:
     title: Miniaturizing neural networks for charge state autotuning in quantum dots
     year: '2022'
   Avc3vAkAAAAJ:u5HHmVD_uO8C:
-    citations: 285
+    citations: 288
     title: "In\u2010memory vector\u2010matrix multiplication in monolithic complementary metal\u2013oxide\u2013semiconductor\u2010memristor integrated circuits: design choices, challenges, and perspectives"
     year: '2020'
   Avc3vAkAAAAJ:ufrVoPGSRksC:
